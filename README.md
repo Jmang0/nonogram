@@ -1,2 +1,2 @@
-# Nonogram solver
-Solves the Japanese nonogram puzzles
+# Nonogram Solver
+Brute-force solves the Japanese nonogram puzzles
