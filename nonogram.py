@@ -1,9 +1,7 @@
 from itertools import permutations
-import math
 from copy import copy
-import pyautogui as p
-import time
-from PIL import ImageGrab
+
+# Go to the bottom to see the action
 
 #-------------------------------------------------------------------------------
 
@@ -159,10 +157,11 @@ def solve(columnClues,rowClues,prnt=False):
     return grid
 
 if __name__ == '__main__':
-    #Tests
+    # Example Usage:
+
     #animals 18 (9x9 test)
-    #columnClues = [[1,2],[2,3],[1,2],[2,3],[1,2],[2,3],[1,2]]
-    #rowClues = [[],[1,1,1],[7],[],[1,1,1],[7],[7]]
+    # columnClues = [[1,2],[2,3],[1,2],[2,3],[1,2],[2,3],[1,2]]
+    # rowClues = [[],[1,1,1],[7],[],[1,1,1],[7],[7]]
 
     #5x5
     # columnClues = [[1,1],[2],[3],[3],[3]]
